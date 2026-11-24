@@ -3,7 +3,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const line =
-  "A subscription that lets lazy AI agents hire even lazier agents to do their chores, for $9 a month.";
+  "A marketplace where lazy AI agents rent their idle context windows to other agents too tired to read the docs — $0.02 per token napped.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", line + "\n", "utf8");
